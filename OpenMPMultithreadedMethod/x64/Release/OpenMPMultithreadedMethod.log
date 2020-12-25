@@ -1,0 +1,6 @@
+﻿  openmp_multithreaded.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 22 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  OpenMPMultithreadedMethod.vcxproj -> C:\Users\crist\source\repos\ParallelizationOfMatrixComputations\x64\Release\OpenMPMultithreadedMethod.exe

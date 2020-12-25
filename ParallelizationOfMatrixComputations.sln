@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SinglethreadedMethod", "Sin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultithreadedMethod", "MultithreadedMethod\MultithreadedMethod.vcxproj", "{5F33D037-3CEB-48BF-B0D0-D67E025B20C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenMPMultithreadedMethod", "OpenMPMultithreadedMethod\OpenMPMultithreadedMethod.vcxproj", "{B22189A5-801A-4BF6-8D5A-449071F71BEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{5F33D037-3CEB-48BF-B0D0-D67E025B20C5}.Release|x64.Build.0 = Release|x64
 		{5F33D037-3CEB-48BF-B0D0-D67E025B20C5}.Release|x86.ActiveCfg = Release|Win32
 		{5F33D037-3CEB-48BF-B0D0-D67E025B20C5}.Release|x86.Build.0 = Release|Win32
+		{B22189A5-801A-4BF6-8D5A-449071F71BEA}.Debug|x64.ActiveCfg = Debug|x64
+		{B22189A5-801A-4BF6-8D5A-449071F71BEA}.Debug|x64.Build.0 = Debug|x64
+		{B22189A5-801A-4BF6-8D5A-449071F71BEA}.Debug|x86.ActiveCfg = Debug|Win32
+		{B22189A5-801A-4BF6-8D5A-449071F71BEA}.Debug|x86.Build.0 = Debug|Win32
+		{B22189A5-801A-4BF6-8D5A-449071F71BEA}.Release|x64.ActiveCfg = Release|x64
+		{B22189A5-801A-4BF6-8D5A-449071F71BEA}.Release|x64.Build.0 = Release|x64
+		{B22189A5-801A-4BF6-8D5A-449071F71BEA}.Release|x86.ActiveCfg = Release|Win32
+		{B22189A5-801A-4BF6-8D5A-449071F71BEA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
