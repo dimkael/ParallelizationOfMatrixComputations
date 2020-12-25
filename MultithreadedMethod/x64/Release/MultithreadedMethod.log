@@ -1,0 +1,36 @@
+﻿  multithreaded.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\type_traits(1579,1): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\type_traits(1579): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Invoker_functor::_Call<void(__cdecl *)(double **,unsigned int,unsigned int,int,long double &,int),_Ty,unsigned int,unsigned int,int,std::reference_wrapper<long double>,unsigned __int64>(_Callable &&,_Ty &&,unsigned int &&,unsigned int &&,int &&,std::reference_wrapper<long double> &&,unsigned __int64 &&) noexcept(false)"
+          with
+          [
+              _Ty=double **,
+              _Callable=void (__cdecl *)(double **,unsigned int,unsigned int,int,long double &,int)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\thread(39): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::invoke<void(__cdecl *)(double **,unsigned int,unsigned int,int,long double &,int),double**,unsigned int,unsigned int,int,std::reference_wrapper<long double>,unsigned __int64>(_Callable &&,double **&&,unsigned int &&,unsigned int &&,int &&,std::reference_wrapper<long double> &&,unsigned __int64 &&) noexcept(false)"
+          with
+          [
+              _Callable=void (__cdecl *)(double **,unsigned int,unsigned int,int,long double &,int)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\thread(49): message : выполняется компиляция ссылки на экземпляр шаблон функции "unsigned int std::thread::_Invoke<_Tuple,0,1,2,3,4,5,6>(void *) noexcept"
+          with
+          [
+              _Tuple=_Tuple
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\thread(55): message : выполняется компиляция ссылки на экземпляр шаблон функции "unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1,2,3,4,5,6>(std::integer_sequence<unsigned __int64,0,1,2,3,4,5,6>) noexcept)(void *)"
+C:\Users\crist\source\repos\ParallelizationOfMatrixComputations\MultithreadedMethod\multithreaded.cpp(50): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::thread::thread<void(__cdecl &)(double **,unsigned int,unsigned int,int,long double &,int),double**&,unsigned int&,unsigned int&,const int&,std::reference_wrapper<long double>,size_t&,void>(_Fn,double **&,unsigned int &,unsigned int &,const int &,std::reference_wrapper<long double> &&,size_t &)"
+          with
+          [
+              _Fn=void (__cdecl &)(double **,unsigned int,unsigned int,int,long double &,int)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(632): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::chrono::duration<double,std::ratio<1,1>>"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(178): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::chrono::duration<__int64,std::nano>"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(610): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>"
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 151 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  MultithreadedMethod.vcxproj -> C:\Users\crist\source\repos\ParallelizationOfMatrixComputations\x64\Release\MultithreadedMethod.exe
